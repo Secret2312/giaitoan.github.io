@@ -262,12 +262,12 @@ header{
     height: 100%
 }
 .logo{
-    width: 350px;
+    width: 200px;
     float: left;
     margin-left: 70px;
-    margin-top: -50px;
+    margin-top: 50px;
     margin-bottom: -100px;
-    padding-top: 20px;
+    border-radius: 50%;
 }
 .main-nav{
     float: right;
@@ -302,4 +302,17 @@ header{
     left: 50%;
     transform: translate(-40%,-55%);
     width: 1500px;
+}
+.btn{
+    text-decoration: none;
+    color: white;
+    background-color: #e63e22;
+    padding: 15px 30px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    margin: 0 5px;
+    width: 190px;
+    display: inline-block;
+    text-align: center;
+    transition: all .3s;
 }
